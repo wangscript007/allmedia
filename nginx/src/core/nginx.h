@@ -11,7 +11,7 @@
 
 #define nginx_version      1014000
 #define NGINX_VERSION      "1.14.0"
-#define NGINX_VER          "nginx/" NGINX_VERSION
+#define NGINX_VER          "allmedia/" NGINX_VERSION
 
 #ifdef NGX_BUILD
 #define NGINX_VER_BUILD    NGINX_VER " (" NGX_BUILD ")"
@@ -19,7 +19,7 @@
 #define NGINX_VER_BUILD    NGINX_VER
 #endif
 
-#define NGINX_VAR          "NGINX"
+#define NGINX_VAR          "ALLMEDIA"
 #define NGX_OLDPID_EXT     ".oldbin"
 
 
