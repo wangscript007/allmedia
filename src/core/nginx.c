@@ -390,6 +390,7 @@ static void
 ngx_show_version_info(void)
 {
     ngx_write_stderr("allmedia version: " NGINX_VER_BUILD NGX_LINEFEED);
+    ngx_write_stderr("update: " __DATE__ " " __TIME__ NGX_LINEFEED);
 
     if (ngx_show_help) {
         ngx_write_stderr(
